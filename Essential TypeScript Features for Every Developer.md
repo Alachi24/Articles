@@ -2,7 +2,7 @@
 
 ## Unlock the power of TypeScript with these must-know features for modern programming
 
-# ![Essential Ts](/Images/Essential%20Ts.jpeg)
+# ![Essential_Ts](/Images/Essential_Ts.jpeg)
 
 Get ready to supercharge your development skills with TypeScript! This incredible superset of JavaScript is a game-changer, adding static typing to make your code more predictable and easier to debug. In the fast-paced world of software development, ensuring top-notch code quality, scalability, and ease of maintenance is key—and TypeScript knocks it out of the park in all these areas!
 
