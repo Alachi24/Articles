@@ -4,16 +4,30 @@
 
 # ![Essential_Ts](/Images/Essential_Ts.jpeg)
 
+#
+
+## Table of Contents
+
+- [Prerequisite](#knowledge)
+- [Static Typing](#info-one)
+- [Type Inference](#info-two)
+- [Interfaces and Type Aliases](#info-three)
+- [Enums](#info-four)
+- [Generics](#info-five)
+- [Conclusion](#end)
+
+#
+
 Get ready to supercharge your development skills with TypeScript! This incredible superset of JavaScript is a game-changer, adding static typing to make your code more predictable and easier to debug. In the fast-paced world of software development, ensuring top-notch code quality, scalability, and ease of maintenance is key—and TypeScript knocks it out of the park in all these areas!
 
 TypeScript allows teams to build large applications with fewer bugs and better long-term reliability, making it a go-to tool for modern web development. In this article, we will delve into some of its features, and it's essential for you as a developer to be familiar with them.
 
-### Prerequisite
+### <a id = "knowledge" style = "color: #fff;">Prerequisite</a>
 
 - JavaScript Developer
 - Beginner in TypeScript
 
-### Static Typing
+### <a id = "info-one" style = "color: #fff;">Static Typing</a>
 
 Static typing is a standout feature of TypeScript. Unlike JavaScript's dynamic typing, TypeScript checks your code for errors at compile-time, before you even run it. This results in fewer bugs and more reliable code. By specifying the types of variables, function parameters, and return types upfront, TypeScript ensures that you use your code correctly.
 
@@ -35,7 +49,7 @@ username = 42;
 
 Here, the `greet` function is expecting a `name` of type `string`. If you try to pass a number (`42` in this case), TypeScript will catch that error during compile time, preventing the mistake before running the code. This helps ensure you don’t accidentally pass the wrong types and cause bugs.
 
-### Type Inference
+### <a id = "info-two" style = "color: #fff;">Type Inference</a>
 
 In TypeScript, you don't always have to specify the type of every variable because of type inference. When you assign a value to a variable, TypeScript can figure out its type automatically. This helps to keep your code less redundant and cleaner.
 
@@ -51,7 +65,7 @@ price = 19.99;
 
 In the first case, TypeScript infers that `age` is a number based on its initial value. In the second case, we explicitly specify that `price` will always be a number, even if we don't assign it a value immediately. This balance between inference and explicit annotations ensures efficiency and safety in your code!
 
-### Interfaces and Type Aliases
+### <a id = "info-three" style = "color: #fff;">Interfaces and Type Aliases</a>
 
 When working with TypeScript, it's common to define the shape of objects. There are two primary methods for doing this: `interfaces` and `type aliases`. Both of these options allow you to specify the structure of your data, each with its own distinct use cases.
 
@@ -84,7 +98,7 @@ userId = "abc123";
 
 In this example, the **User** interface defines the shape of an object, while the **ID** type alias can represent a value that is either a number or a string. Both are useful tools for keeping your TypeScript code organized and robust!
 
-### Enums
+### <a id = "info-four" style = "color: #fff;">Enums</a>
 
 Enums in TypeScript are a powerful way to define a set of named constants. This significantly enhances the readability and robustness of your code. Enums enable you to group related values under a single name and reference them by that name, eliminating the need for hard-coded values throughout your code.
 
@@ -114,7 +128,7 @@ assignRole(UserRole.Editor); // Output: You can edit content.
 
 In the given example, an enum is utilized to depict various user roles. Rather than directly using strings such as `"Admin"` or `"Editor,"` you can simply refer to the roles by their enum name. This approach enhances code readability and maintainability. Enums help you prevent typos and uphold consistent values across the codebase.
 
-### Generics
+### <a id = "info-five" style = "color: #fff;">Generics</a>
 
 Generics are a powerful feature of TypeScript. They enable you to create reusable and flexible components that can operate with any type, rather than being limited to just one. You can think of them as function parameters for types. Instead of specifying a type directly, you can define a generic placeholder that adjusts based on the input.
 
@@ -133,7 +147,7 @@ printArray<string>(["apple", "banana", "cherry"]); // Output: apple banana cherr
 
 In this example, the `printArray` function utilizes the generic type `<T>`, enabling it to seamlessly work with arrays of any type—be it numbers, strings, or any other data type. This approach ensures type safety and flexibility, simplifying reuse without the need to create distinct functions for each type.
 
-### Conclusion
+### <a id = "end" style = "color: #fff;">Conclusion</a>
 
 We've discussed several important TypeScript features, such as static typing, type inference, interfaces, enums, and generics, which contribute to enhancing code quality, readability, and flexibility. However, TypeScript offers numerous other tools and features, including advanced types and improved tooling, further amplifying its capabilities.
 
